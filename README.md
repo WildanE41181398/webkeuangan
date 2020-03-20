@@ -1,6 +1,6 @@
 **Deskripsi Sistem Informasi**
 
-Sistem Informasi Website Admin Dokter sederhana ini merupakan sistem infromasti yang digunakan untuk Pendaftaran Periksa Pasien.
+Sistem Informasi Website Admin Keuangan sederhana ini merupakan sistem infromasti yang digunakan untuk Pendataan Kas.
 
 **Yang Dibutuhkan :**
 1. XAMPP 7.2.28 atau lebih baru
@@ -28,7 +28,7 @@ pada file config/autoload.php
 pada file config/config.php
 ```
 	defined('BASEPATH')  OR  exit('No direct script access allowed');
-	$config['base_url']  =  'http://localhost/Tugasweb-matkul-framework/admin/C_login/';
+	$config['base_url']  =  'http://localhost/webkeuangan/admin/C_login/';
 	$config['index_page']  =  ''; //dikosongkan karena kita sudah menggunakan .htaccess untuk menghilangkan index.php untuk penulisan url lebih mudah
 ```
 
@@ -69,4 +69,4 @@ $route['translate_uri_dashes']  =  FALSE;
 ```
 
 **Implementasi :**
-Masukkan link http://localhost/Tugasweb-matkul-framework/admin/C_login/ untuk mulai menjalankan website
+Masukkan link http://localhost/webkeuangan/admin/C_login/ untuk mulai menjalankan website
